@@ -8,6 +8,19 @@
         ],
         "description": "Pester Test fuer Parameter"
     },
+    "Pester Kompletter Aufbau": {
+        "prefix": "Pester Aufbau",
+        "body": [
+            "Describe 'Die Beschreibung eines Testfalls' {",
+            "\tcontext 'Erster Kontext des Tests'{",
+            "\t\tIT 'Erster Test mit Beschreibung'{",
+            "\t\t\t $true | should -BeTrue # Erster Testlauf sollte $true sein",
+            "\t\t} -Tag 'Test1'",
+            "\t} -Tag 'Kontext1'",
+            "} -Tag 'Testfall1'"
+        ],
+        "description": "Pester Aufbau mit Describe, Kontext und IT"
+    },
     "Pester fuer Datei existiert": {
         "prefix": "Pester Datei existiert",
         "body": [
