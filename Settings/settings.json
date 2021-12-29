@@ -1,0 +1,80 @@
+{
+    "workbench.colorTheme": "Powershell_ISE_Dark",
+    "workbench.iconTheme": "vscode-icons",
+    "debug.openDebug": "neverOpen",
+    "files.defaultLanguage": "powershell",
+    "extensions.ignoreRecommendations": true,
+    "powershell.integratedConsole.focusConsoleOnExecute": false,
+    "powershell.integratedConsole.showOnStartup": false,
+    "powershell.promptToUpdatePowerShell": false,
+    "powershell.scriptAnalysis.enable": true,
+    "powershell.startAutomatically": true,
+    "powershell.enableProfileLoading": true,
+    "powershell.developer.editorServicesLogLevel": "Verbose",
+    "powershell.scriptAnalysis.settingsPath": "ScriptAnalyzerSettings.psd1",
+    "powershell.powerShellDefaultVersion": "Windows PowerShell (x64)",
+    "window.zoomLevel": 1,
+    "vsicons.dontShowNewVersionMessage": true,
+    "extensions.autoUpdate": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.mouseWheelZoom": true,
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "on",
+    "editor.cursorStyle": "line-thin",
+    "terminal.integrated.rightClickBehavior": "default",
+    "terminal.integrated.defaultProfile.windows": "Powershell 7x",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+                "C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Windows PowerShell": {
+            "path": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+        },
+        "Powershell 7x": {
+            "path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        }
+    },
+    "window.title": "${activeEditorLong}",
+    "workbench.startupEditor": "newUntitledFile",
+    "shellLauncher.shells.windows": [
+        {
+            "shell": "C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "label": "PowerShell 5.1"
+        },
+        {
+            "shell": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+            "label": "PowerShell 7"
+        },
+    ],
+    "security.workspace.trust.untrustedFiles": "open",
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "bracket-pair-colorizer-2.colors": [
+        "#D90B1C",
+        "#FAF566",
+        "#9ACFDD",
+        "#CABAAB",
+        "#202731"
+    ],
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true
+}

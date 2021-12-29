@@ -1,58 +1,30 @@
 # VSCode
 
 Synopsis: In diesem Repo werden Einstellungen und Erweitungern fuer Visual Studio Code (VSCode) und PowerShell gesammelt
+Da man in einer JSON Datei offiziell keine Kommentare machen kann, werden die Erklaerungen hier gemacht.
+
+# Settings
+Dies sind die Benutzereinstellungen für VSCode die speziell auf PowerShell definiert sind
+
+Folgende Erweiterungen (Extensions) muessen ueber VSCode vorher installiert und aktiviert werden
+* – PowerShell
+* – vscode-icons
+* – Bracket Pair Colorizer 2
+* – Powershell_ISE_Dark
+* – German Language Pack for Visual Studio Code
+ 
+# Snippets
+
+Diese Schnipsel (Snippets) beinhalten die wichtigsten Code-Teile, die wir immer wieder fuer unsere Arbeit mit PowerShell verwenden
+Kopiere die Datei an folgenen Platz:
+
+* Mit PowerShell unter: $env:APPDATA\Code\User\snippets\powershell.json
+* Mit dem Windowsexplorer unter: %appdata%\Code\User\snippets\powershell.json
 
 
-# Style Guide
-
-Hier die Möglichkeiten in sämtlichen *.md oder *.markdown Dateien auf Github um die Gestalltung und den Style gut lesbar zu halten. 
-
-# Überschriften
-# Überschrift 1
-## Überschrift 2
-### Überschrift 3
-#### Überschrift 4
-##### Überschrift 5
-###### Überschrift 6
-
-# Styling Text
-
-Die Möglichkeiten einen Text zu formattieren.
-
-Dieser Text hat ein **fettes** Wort drin
-So kann man ein Wort *kursiv* machen
-Um ein Wort ~~dorchzustreichen~~ geht es so
-**In einem fetten Satz kann ein Wort auch  _kursiv_ hervorgehoben werden**
-
-# Zitate
-Um einem Text zusätzliche glaubwürdigkeit zu verleihen, referenzieren wir auf:
-> Ein Zitat
-
-Ebenfalls kann man in einem Satz `Code hervorheben`um ihn speziell herauszuheben.
-
-Mehrere Zeilen Code stellt man so dar:
-```
-Hier stehen
-mehrere Zeilen
-Code am Stück
-```
-
-# Listen
-Unsortiert
-* Element 1
-* Element 2
-  * Element 2a
-  * Element 2b
-
-Sortiert
-1. Element 1
-1. Element 2
-1. Element 3
-   1. Element 3a
-   1. Element 3b
-   
  # Links
- [germanPowerSHELL](http://germanpowershell.com)
+ [germanPowerSHELL](https://germanpowershell.com)
+ [Youtube germanPowerSHELL](https://youtube.com/germanpowershell)
  
  # Syntax Powershell
  ```powershell
