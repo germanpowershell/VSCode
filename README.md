@@ -24,12 +24,6 @@ Kopiere die Datei an folgenen Platz:
 
  # Links
  [germanPowerSHELL](https://germanpowershell.com)`
- 
+
  [Youtube germanPowerSHELL](https://youtube.com/germanpowershell)
  
- # Syntax Powershell
- ```powershell
-$MyVar = "Hallo Welt"
-get-command get-aduser
-get-help
-```
