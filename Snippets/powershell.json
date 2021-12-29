@@ -1,0 +1,29 @@
+{
+    "Pester fuer Parameter": {
+        "prefix": "Pester Parameter",
+        "body": [
+            "It \"Cmdlet ${1:FunctionName} sollte diesen Parameter haben ${2:ParameterName}\" {",
+            "\t(Get-Command ${1:FunctionName}).Parameters['${2:ParameterName}'].Count | Should -Be 1",
+            "}"
+        ],
+        "description": "Pester Test fuer Parameter"
+    },
+    "Pester fuer Datei existiert": {
+        "prefix": "Pester Datei existiert",
+        "body": [
+            "It \"Datei ${1:Pfad} sollte vorhanden sein\" {",
+            "\t'${1:Pfad}' | Should -Exist",
+            "}"
+        ],
+        "description": "Pester Test Datei existiert"
+    },
+    "PSCustomObject": {
+        "prefix": "PSCustomObject Geruest",
+        "body": [
+            "[PSCustomObject]@{",
+            "\t${1:Name} = ${2:Value}",
+            "}"
+        ],
+        "description": "Erstellt ein Geruest fuer ein PSCustomObject"
+    }
+}
