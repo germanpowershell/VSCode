@@ -25,5 +25,14 @@
             "}"
         ],
         "description": "Erstellt ein Geruest fuer ein PSCustomObject"
+    },
+    "Assembly": {
+        "prefix": "Assembly Laden",
+        "body": [
+            "# Laden der Assembly aus einer DLL Datei",
+            "\t[System.Reflection.Assembly]::LoadFile(${1:DateiName})",
+            "\tAdd-Type -Path ${1:DateiName}"
+        ],
+        "description": "Assembly aus einer Datei (DLL) laden"
     }
 }
