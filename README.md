@@ -1,7 +1,6 @@
-# Readme Template
+# VSCode
 
-Synopsis: Hier steht ein Kurzbeschrieb zu diesem Repository ähnlich wie ein Management Summary
-
+Synopsis: In diesem Repo werden Einstellungen und Erweitungern fuer Visual Studio Code (VSCode) und PowerShell gesammelt
 
 
 # Style Guide
